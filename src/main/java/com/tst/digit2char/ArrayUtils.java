@@ -70,19 +70,6 @@ public class  ArrayUtils {
         return str.toString();
     }
     
-    public static void main(String[] args){
-        List<String> list1 = Arrays.asList("a", "f", "g");
-        List<String> list2 = Arrays.asList("j", "k", "p");
-        List<String> list0 = Arrays.asList("q", "r", "t");
-        ArrayList<List<String>> list3 = new ArrayList<>();
-        list3.add(list1);
-        list3.add(list2);
-        list3.add(list0);
-        List<String> descartes = getPermutations(list3);
-        for(String s: descartes) {
-        	System.out.printf("%s\t", s);
-        }
-//        descartes.forEach(System.out::println);
-    }
+
 
 }

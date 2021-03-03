@@ -46,16 +46,16 @@ public class DigitsMapToChar {
 
 	public static void main(String[] args) {
 		List<Integer> a = new ArrayList<>();
-		a.add(2);
-		a.add(3);
+		a.add(5);
+		a.add(6);
 		digToString(a);
 
 		List<Integer> b = new ArrayList<>();
-		b.add(9);
-		b.add(9);
+		b.add(7);
+		b.add(7);
 		digToString(b);
 
-		Integer[] c= {1,11, 88, 99};
+		Integer[] c= {1,0, 22, 55, 66};
 		List<Integer> l = Arrays.asList(c);
 		List<Integer> newList = new ArrayList<>();
 
